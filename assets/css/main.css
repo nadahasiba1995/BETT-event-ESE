@@ -1,0 +1,124 @@
+@font-face {
+  font-family: PoppinsRegular ;
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: PoppinsBold ;
+  src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+
+
+body,div{
+font-family: 'PoppinsRegular' !important;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100% !important;
+    }
+
+  }
+
+  .section {
+    min-height: 100vh;
+  }
+
+  .welcome-text p{
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .welcome-text b{
+    font-size: 24px;
+  }
+
+  .v-align{
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+  }
+
+
+  .bg-yellow{
+   background-color: #e8c13e;
+  }
+
+  #section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+
+  .section-text {
+    /* font-size: 14px;
+    text-align: justify;
+    width: 80%; */
+    font-size: 0.95rem;
+    text-align: justify;
+    width: 100%;
+    /* padding: 0.5rem; */
+}
+
+.seal-writing-cont img{
+    max-width: 110px;
+}
+
+.section-header{
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+ 
+}
+.section-header, b, h1,h2,h3,h4,h5{
+font-family: 'PoppinsBold' !important;
+}
+
+.media-header{
+ padding: 1rem;
+}
+
+.media-header span{
+  margin: 0 0.5rem;
+}
+
+.header-left{
+  margin-left: -1.5rem;
+}
+
+.header-right{
+  margin-right: -1.5rem;
+}
+
+.section-avatar img{
+  margin: auto;
+   width: 200px; 
+  width: 75%;
+  display: block;
+
+}
+
+h5{
+  font-size: 1rem !important;
+}
+
+.flex-algin-center{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.hideme
+{
+    opacity:0;
+}
+
+.media-description{
+  padding: 1rem;
+  text-align: justify;
+}
